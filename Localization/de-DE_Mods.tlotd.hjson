@@ -1,0 +1,202 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+DamageClasses.Legendary.DisplayName: Legendärschaden
+
+Items: {
+	Anduril: {
+		DisplayName: Andúril
+		Tooltip: "'Die Flamme des Westens'"
+	}
+
+	IslaNublarsCrown: {
+		DisplayName: Isla Nublars Krone
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	IslaNublarsChestplate: {
+		DisplayName: Isla Nublars Brustplatte
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	IslaNublarsLeggings: {
+		DisplayName: Isla Nublars Beinschützer
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	IslaNublar.SetBonus: Um 20% erhöhter Legendärschaden
+
+	Nischi2612sMask: {
+		DisplayName: Nischi2612s Kürbis Maske
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	Nischi2612sTuxedo: {
+		DisplayName: Nischi2612s Anzug
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	Nischi2612sTuxedoPants: {
+		DisplayName: Nischi2612s Anzugshose
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	Nischi2612.SetBonus: Um 10% erhöhter Fernkampfschaden
+
+	BethanysMask: {
+		DisplayName: Bethanys Maske
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	BethanysMechChestplate: {
+		DisplayName: Bethanys Maschienenbrustplatte
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	BethanysMechPants: {
+		DisplayName: Bethanys Maschienenhose
+		Tooltip: "'Toll, wenn man sich als Dev ausgeben will!'"
+	}
+
+	Bethany.SetBonus: Um 10% erhöhter Nahkampfschaden
+
+	RangerBlade: {
+		DisplayName: Ranger Schwert
+		Tooltip: "'Geschmiedet von Isla_Nublar'"
+	}
+
+	EclipsedMithrilBar: {
+		DisplayName: Verfinsterte Mithrilbarren
+		Tooltip: ""
+	}
+
+	EclipsedMithrilOre: {
+		DisplayName: Verfinsterte Mithrilbarren
+		Tooltip: ""
+	}
+
+	PaulanerSpezi: {
+		DisplayName: Paulaner Spezi
+		Tooltip: Eine erfrischende Mischung aus Cola und Orange.
+	}
+
+	Accessories: {
+		LegendaryEmblem: {
+			DisplayName: Legendäremblem
+			Tooltip: Um 15% erhöhter Legendärschaden
+		}
+	}
+
+	Placeables: {
+		TlotdDevsPainting: {
+			DisplayName: Ode an die Erschaffer
+			Tooltip:
+				'''
+				'I. Nublar'
+				'Danke an alle die dieses Projekt möglich gemacht haben.'
+				'''
+		}
+
+		CastleOnTheHillPainting: {
+			DisplayName: Schloss auf dem Hügel
+			Tooltip:
+				'''
+				'I. Nublar'
+				'Kaiserlicher Palast Eisenstett'
+				'''
+		}
+
+		CosmicDragonPainting: {
+			DisplayName: Kosmischer Drache
+			Tooltip: "'I. Nublar'"
+		}
+
+		MusicBoxes: {
+			LordOfTheRingsMainThemeMusicBox: {
+				DisplayName: Spieluhr (Der Herr der Ringe)
+				Tooltip: ""
+			}
+
+			TlotdTitleMusicBox: {
+				DisplayName: Spieluhr (TLOTD)
+				Tooltip: ""
+			}
+		}
+	}
+
+	Mounts: {
+		GazeOfCrysthamyr: {
+			DisplayName: Gaze Of Crysthamyr
+			Tooltip: ""
+		}
+
+		PlutoniumFueledNuclearReactor: {
+			DisplayName: Plutoniumbetriebener Nuklearreaktor
+			Tooltip: ""
+		}
+	}
+
+	PlayerUpgrades: {
+		EffigyOfTheWoundedDeity: {
+			DisplayName: Effigy Of The Wounded Deity
+			Tooltip: ""
+		}
+
+		PactWithTheVoid: {
+			DisplayName: Pact With The Void
+			Tooltip: ""
+		}
+	}
+}
+
+Tiles.EclipsedMithrilOre.MapEntry: Verfinsterte Mithrilbarren
+
+Buffs: {
+	Refreshed: {
+		DisplayName: Erfrischt
+		Description: Du fühlst dich energetisch!
+	}
+
+	GazeOfCrysthamyrBuff: {
+		DisplayName: Gaze Of Crysthamyr Buff
+		Description: ""
+	}
+
+	DeLoreanBuff: {
+		DisplayName: DeLorean
+		Description:
+			'''
+			'Wenn meine Kalkulationen Korrekt sind,
+			und dieses Baby fährt 140 Sachen pro Stunde,
+			dann kannst du einen Superknüller erleben!'
+			'''
+	}
+}
+
+NPCs: {
+	LEGEND: {
+		DisplayName: Legende
+		Info: Die Legende war ein Held aus der alten welt.
+
+		Chat: {
+			Normal1: Sei gegrüßt Reisender.
+			Normal2: Das hätte ich selbst nicht besser hinbekommen.
+			Night1: Obacht, die Dunkelheit verdeckt viele üble Gestalten.
+			Night2: Ich bin zu alt für diesen Mist, meine Augen sehen lange nicht mehr soweit, wie sie es früher einmal taten.
+		}
+
+		TownNPCMood: {
+			// Content: I am content.
+			// NoHome: I hate not having a home.
+			// FarFromHome: I am too far from home.
+			// LoveSpace: I love having so much space.
+			// DislikeCrowded: I dislike how crowded I am.
+			// HateCrowded: I hate how crowded I am.
+			// LikeBiome: I like {BiomeName}.
+			// DislikeBiome: I dislike {BiomeName}.
+			// LikeNPC: I like {NPCName}.
+			// DislikeNPC: I dislike {NPCName}.
+			// LikeNPC_Princess: I like {NPCName}.
+			// Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}

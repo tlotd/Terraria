@@ -1,0 +1,4 @@
+displayName = TLOTD
+author = The TLOTD Team, Isla_Nublar
+version = 0.0.5
+homepage = https://tlotd.net

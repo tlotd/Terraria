@@ -1,0 +1,206 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+DamageClasses.Legendary.DisplayName: legendary damage
+
+Items: {
+	Anduril: {
+		DisplayName: Andúril
+		Tooltip:
+			'''
+			'The Flame of the West'
+			33% chance to set the target on fire
+			'''
+	}
+
+	IslaNublarsCrown: {
+		DisplayName: Isla Nublar's Crown
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	IslaNublarsChestplate: {
+		DisplayName: Isla Nublar's Chestplate
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	IslaNublarsLeggings: {
+		DisplayName: Isla Nublar's Leggings
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	IslaNublar.SetBonus: 20% increased legendary damage
+
+	Nischi2612sMask: {
+		DisplayName: Nischi2612's Pumpkin Mask
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Nischi2612sTuxedo: {
+		DisplayName: Nischi2612's Tuxedo
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Nischi2612sTuxedoPants: {
+		DisplayName: Nischi2612's Tuxedo Pants
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Nischi2612.SetBonus: 10% increased ranged damage
+
+	BethanysMask: {
+		DisplayName: Bethany's Mask
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	BethanysMechChestplate: {
+		DisplayName: Bethany's Mech Chestplate
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	BethanysMechPants: {
+		DisplayName: Bethany's Mech Pants
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Bethany.SetBonus: 10% increased melee damage
+
+	RangerBlade: {
+		DisplayName: Ranger Blade
+		Tooltip: "'Forged by Isla_Nublar'"
+	}
+
+	EclipsedMithrilBar: {
+		DisplayName: Eclipsed Mithril Bar
+		Tooltip: ""
+	}
+
+	EclipsedMithrilOre: {
+		DisplayName: Eclipsed Mithril Ore
+		Tooltip: ""
+	}
+
+	PaulanerSpezi: {
+		DisplayName: Paulaner Spezi
+		Tooltip: A refreshing mix of cola and orange flavor.
+	}
+
+	Accessories: {
+		LegendaryEmblem: {
+			DisplayName: Legendary Emblem
+			Tooltip: 15% increased legendary damage
+		}
+	}
+
+	Placeables: {
+		TlotdDevsPainting: {
+			DisplayName: An Ode to Creation
+			Tooltip:
+				'''
+				'I. Nublar'
+				'Thank you to everyone making this project possible.'
+				'''
+		}
+
+		CastleOnTheHillPainting: {
+			DisplayName: Castle on the Hill
+			Tooltip:
+				'''
+				'I. Nublar'
+				'Eisenstett Royal Palace'
+				'''
+		}
+
+		CosmicDragonPainting: {
+			DisplayName: Cosmic Dragon
+			Tooltip: "'I. Nublar'"
+		}
+
+		MusicBoxes: {
+			LordOfTheRingsMainThemeMusicBox: {
+				DisplayName: Music Box (The Lord Of The Rings)
+				Tooltip: ""
+			}
+
+			TlotdTitleMusicBox: {
+				DisplayName: Music Box (TLOTD)
+				Tooltip: ""
+			}
+		}
+	}
+
+	Mounts: {
+		GazeOfCrysthamyr: {
+			DisplayName: Gaze Of Crysthamyr
+			Tooltip: ""
+		}
+
+		PlutoniumFueledNuclearReactor: {
+			DisplayName: Plutonium Fueled Nuclear Reactor
+			Tooltip: ""
+		}
+	}
+
+	PlayerUpgrades: {
+		EffigyOfTheWoundedDeity: {
+			DisplayName: Effigy Of The Wounded Deity
+			Tooltip: Permanently increases maximum life by 100
+		}
+
+		PactWithTheVoid: {
+			DisplayName: Pact With The Void
+			Tooltip: Permanently increases maximum mana by 100
+		}
+	}
+}
+
+Tiles.EclipsedMithrilOre.MapEntry: Eclipsed Mithril Ore
+
+Buffs: {
+	Refreshed: {
+		DisplayName: Refreshed
+		Description: You feel energetic!
+	}
+
+	GazeOfCrysthamyrBuff: {
+		DisplayName: Gaze Of Crysthamyr Buff
+		Description: ""
+	}
+
+	DeLoreanBuff: {
+		DisplayName: DeLorean
+		Description:
+			'''
+			'If my calculations are correct,
+			when this baby hits eighty-eight miles per hour...
+			you're gonna see some serious shit.'
+			'''
+	}
+}
+
+NPCs: {
+	LEGEND: {
+		DisplayName: Legend
+		Info: The Legend was an ancient hero from the old world.
+
+		Chat: {
+			Normal1: Hey there traveller.
+			Normal2: Couldn't have done that better myself.
+			Night1: Be careful, the dark hides many foes.
+			Night2: Im to old for this, my eyes can't see into the dark as far as they used to.
+		}
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeNPC: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
